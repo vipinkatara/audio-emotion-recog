@@ -12,4 +12,4 @@ pandas>=0.19
 tensorflow==2.4.0
 keras==2.4.3
 librosa==0.8.0
-IPython==7.19.0
+IPython
