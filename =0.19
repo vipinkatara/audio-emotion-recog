@@ -1,0 +1,143 @@
+Collecting MarkupSafe==1.1.1
+  Using cached https://files.pythonhosted.org/packages/b2/5f/23e0023be6bb885d00ffbefad2942bc51a620328ee910f64abe5a8d18dd1/MarkupSafe-1.1.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting Werkzeug==0.15.5
+  Using cached https://files.pythonhosted.org/packages/d1/ab/d3bed6b92042622d24decc7aadc8877badf18aeca1571045840ad4956d3f/Werkzeug-0.15.5-py2.py3-none-any.whl
+Collecting numpy
+  Using cached https://files.pythonhosted.org/packages/45/b2/6c7545bb7a38754d63048c7696804a0d947328125d81bf12beaa692c3ae3/numpy-1.19.5-cp36-cp36m-manylinux1_x86_64.whl
+Collecting scipy
+  Using cached https://files.pythonhosted.org/packages/c8/89/63171228d5ced148f5ced50305c89e8576ffc695a90b58fe5bb602b910c2/scipy-1.5.4-cp36-cp36m-manylinux1_x86_64.whl
+Collecting scikit-learn
+  Using cached https://files.pythonhosted.org/packages/db/e2/9c0bde5f81394b627f623557690536b12017b84988a4a1f98ec826edab9e/scikit-learn-0.24.0.tar.gz
+Collecting matplotlib
+  Using cached https://files.pythonhosted.org/packages/d2/43/2bd63467490036697e7be71444fafc7b236923d614d4521979a200c6b559/matplotlib-3.3.3-cp36-cp36m-manylinux1_x86_64.whl
+Collecting pandas
+  Using cached https://files.pythonhosted.org/packages/c3/e2/00cacecafbab071c787019f00ad84ca3185952f6bb9bca9550ed83870d4d/pandas-1.1.5-cp36-cp36m-manylinux1_x86_64.whl
+Collecting tensorflow==2.0.0a0
+  Using cached https://files.pythonhosted.org/packages/29/39/f99185d39131b8333afcfe1dcdb0629c2ffc4ecfb0e4c14ca210d620e56c/tensorflow-2.0.0a0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting keras==2.4.3
+  Using cached https://files.pythonhosted.org/packages/44/e1/dc0757b20b56c980b5553c1b5c4c32d378c7055ab7bfa92006801ad359ab/Keras-2.4.3-py2.py3-none-any.whl
+Collecting librosa==0.8.0
+  Using cached https://files.pythonhosted.org/packages/26/4d/c22d8ca74ca2c13cd4ac430fa353954886104321877b65fa871939e78591/librosa-0.8.0.tar.gz
+Collecting joblib>=0.11 (from scikit-learn)
+  Using cached https://files.pythonhosted.org/packages/34/5b/bd0f0fb5564183884d8e35b81d06d7ec06a20d1a0c8b4c407f1554691dce/joblib-1.0.0-py3-none-any.whl
+Collecting threadpoolctl>=2.0.0 (from scikit-learn)
+  Using cached https://files.pythonhosted.org/packages/f7/12/ec3f2e203afa394a149911729357aa48affc59c20e2c1c8297a60f33f133/threadpoolctl-2.1.0-py3-none-any.whl
+Collecting pillow>=6.2.0 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/b6/c0/442d9d87e0da00bf856ef6dd4916f84a2d710b5f1a367d42d7f3c4e99a6c/Pillow-8.1.0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting kiwisolver>=1.0.1 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/a7/1b/cbd8ae738719b5f41592a12057ef5442e2ed5f5cb5451f8fc7e9f8875a1a/kiwisolver-1.3.1-cp36-cp36m-manylinux1_x86_64.whl
+Collecting cycler>=0.10 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/f7/d2/e07d3ebb2bd7af696440ce7e754c59dd546ffe1bbe732c8ab68b9c834e61/cycler-0.10.0-py2.py3-none-any.whl
+Collecting pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.3 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/8a/bb/488841f56197b13700afd5658fc279a2025a39e22449b7cf29864669b15d/pyparsing-2.4.7-py2.py3-none-any.whl
+Collecting python-dateutil>=2.1 (from matplotlib)
+  Using cached https://files.pythonhosted.org/packages/d4/70/d60450c3dd48ef87586924207ae8907090de0b306af2bce5d134d78615cb/python_dateutil-2.8.1-py2.py3-none-any.whl
+Collecting pytz>=2017.2 (from pandas)
+  Using cached https://files.pythonhosted.org/packages/89/06/2c2d3034b4d6bf22f2a4ae546d16925898658a33b4400cfb7e2c1e2871a3/pytz-2020.5-py2.py3-none-any.whl
+Collecting keras-applications>=1.0.6 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/71/e3/19762fdfc62877ae9102edf6342d71b28fbfd9dea3d2f96a882ce099b03f/Keras_Applications-1.0.8-py3-none-any.whl
+Collecting absl-py>=0.7.0 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/bc/58/0aa6fb779dc69cfc811df3398fcbeaeefbf18561b6e36b185df0782781cc/absl_py-0.11.0-py3-none-any.whl
+Collecting tf-estimator-nightly<1.14.0.dev2019030116,>=1.14.0.dev2019030115 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/13/82/f16063b4eed210dc2ab057930ac1da4fbe1e91b7b051a6c8370b401e6ae7/tf_estimator_nightly-1.14.0.dev2019030115-py2.py3-none-any.whl
+Collecting google-pasta>=0.1.2 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/a3/de/c648ef6835192e6e2cc03f40b19eeda4382c49b5bafb43d88b931c4c74ac/google_pasta-0.2.0-py3-none-any.whl
+Collecting wheel>=0.26 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/65/63/39d04c74222770ed1589c0eaba06c05891801219272420b40311cd60c880/wheel-0.36.2-py2.py3-none-any.whl
+Collecting protobuf>=3.6.1 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/fe/fd/247ef25f5ec5f9acecfbc98ca3c6aaf66716cf52509aca9a93583d410493/protobuf-3.14.0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting termcolor>=1.1.0 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/8a/48/a76be51647d0eb9f10e2a4511bf3ffb8cc1e6b14e9e4fab46173aa79f981/termcolor-1.1.0.tar.gz
+Collecting grpcio>=1.8.6 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/81/5e/168a7fa23a025beed6b7daa0981ace55e394a136db3082faed7d6cba4556/grpcio-1.34.1.tar.gz
+Collecting tb-nightly<1.14.0a20190302,>=1.14.0a20190301 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/a9/51/aa1d756644bf4624c03844115e4ac4058eff77acd786b26315f051a4b195/tb_nightly-1.14.0a20190301-py3-none-any.whl
+Collecting gast>=0.2.0 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/b6/48/583c032b79ae5b3daa02225a675aeb673e58d2cb698e78510feceb11958c/gast-0.4.0-py3-none-any.whl
+Collecting astor>=0.6.0 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/c3/88/97eef84f48fa04fbd6750e62dcceafba6c63c81b7ac1420856c8dcc0a3f9/astor-0.8.1-py2.py3-none-any.whl
+Collecting six>=1.10.0 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/ee/ff/48bde5c0f013094d729fe4b0316ba2a24774b3ff1c52d924a8a4cb04078a/six-1.15.0-py2.py3-none-any.whl
+Collecting keras-preprocessing>=1.0.5 (from tensorflow==2.0.0a0)
+  Using cached https://files.pythonhosted.org/packages/79/4c/7c3275a01e12ef9368a892926ab932b33bb13d55794881e3573482b378a7/Keras_Preprocessing-1.1.2-py2.py3-none-any.whl
+Collecting h5py (from keras==2.4.3)
+  Using cached https://files.pythonhosted.org/packages/70/7a/e53e500335afb6b1aade11227cdf107fca54106a1dca5c9d13242a043f3b/h5py-3.1.0-cp36-cp36m-manylinux1_x86_64.whl
+Collecting pyyaml (from keras==2.4.3)
+  Using cached https://files.pythonhosted.org/packages/64/c2/b80047c7ac2478f9501676c988a5411ed5572f35d1beff9cae07d321512c/PyYAML-5.3.1.tar.gz
+Collecting audioread>=2.0.0 (from librosa==0.8.0)
+  Using cached https://files.pythonhosted.org/packages/b3/d1/e324634c5867a668774d6fe233a83228da4ba16521e19059c15df899737d/audioread-2.1.9.tar.gz
+Collecting decorator>=3.0.0 (from librosa==0.8.0)
+  Using cached https://files.pythonhosted.org/packages/ed/1b/72a1821152d07cf1d8b6fce298aeb06a7eb90f4d6d41acec9861e7cc6df0/decorator-4.4.2-py2.py3-none-any.whl
+Collecting numba>=0.43.0 (from librosa==0.8.0)
+  Using cached https://files.pythonhosted.org/packages/46/e1/cbbc7c7967d9b10e54c852bf5bece0222a63bfb809d3354014c957ef1bda/numba-0.52.0.tar.gz
+    Complete output from command python setup.py egg_info:
+    Traceback (most recent call last):
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 154, in save_modules
+        yield saved
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 195, in setup_context
+        yield
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 250, in run_setup
+        _execfile(setup_script, ns)
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 45, in _execfile
+        exec(code, globals, locals)
+      File "/tmp/easy_install-dz82n1va/numpy-1.20.0rc2/setup.py", line 30, in <module>
+        # Patch for #2555 to make wheels without libpython
+    RuntimeError: Python version >= 3.7 required.
+    
+    During handling of the above exception, another exception occurred:
+    
+    Traceback (most recent call last):
+      File "<string>", line 1, in <module>
+      File "/tmp/pip-build-8zm0k587/numba/setup.py", line 415, in <module>
+        setup(**metadata)
+      File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 128, in setup
+        _install_setup_requires(attrs)
+      File "/usr/lib/python3/dist-packages/setuptools/__init__.py", line 123, in _install_setup_requires
+        dist.fetch_build_eggs(dist.setup_requires)
+      File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 513, in fetch_build_eggs
+        replace_conflicting=True,
+      File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 774, in resolve
+        replace_conflicting=replace_conflicting
+      File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1057, in best_match
+        return self.obtain(req, installer)
+      File "/usr/lib/python3/dist-packages/pkg_resources/__init__.py", line 1069, in obtain
+        return installer(requirement)
+      File "/usr/lib/python3/dist-packages/setuptools/dist.py", line 580, in fetch_build_egg
+        return cmd.easy_install(req)
+      File "/usr/lib/python3/dist-packages/setuptools/command/easy_install.py", line 698, in easy_install
+        return self.install_item(spec, dist.location, tmpdir, deps)
+      File "/usr/lib/python3/dist-packages/setuptools/command/easy_install.py", line 724, in install_item
+        dists = self.install_eggs(spec, download, tmpdir)
+      File "/usr/lib/python3/dist-packages/setuptools/command/easy_install.py", line 909, in install_eggs
+        return self.build_and_install(setup_script, setup_base)
+      File "/usr/lib/python3/dist-packages/setuptools/command/easy_install.py", line 1177, in build_and_install
+        self.run_setup(setup_script, setup_base, args)
+      File "/usr/lib/python3/dist-packages/setuptools/command/easy_install.py", line 1163, in run_setup
+        run_setup(setup_script, args)
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 253, in run_setup
+        raise
+      File "/usr/lib/python3.6/contextlib.py", line 99, in __exit__
+        self.gen.throw(type, value, traceback)
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 195, in setup_context
+        yield
+      File "/usr/lib/python3.6/contextlib.py", line 99, in __exit__
+        self.gen.throw(type, value, traceback)
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 166, in save_modules
+        saved_exc.resume()
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 141, in resume
+        six.reraise(type, exc, self._tb)
+      File "/usr/lib/python3/dist-packages/setuptools/_vendor/six.py", line 685, in reraise
+        raise value.with_traceback(tb)
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 154, in save_modules
+        yield saved
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 195, in setup_context
+        yield
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 250, in run_setup
+        _execfile(setup_script, ns)
+      File "/usr/lib/python3/dist-packages/setuptools/sandbox.py", line 45, in _execfile
+        exec(code, globals, locals)
+      File "/tmp/easy_install-dz82n1va/numpy-1.20.0rc2/setup.py", line 30, in <module>
+        # Patch for #2555 to make wheels without libpython
+    RuntimeError: Python version >= 3.7 required.
+    
+    ----------------------------------------

@@ -12,7 +12,7 @@ import pandas as pd
 import sys
 import warnings
 import librosa.display
-import IPython.display as ipd
+#import IPython.display as ipd
 
 
 
@@ -66,12 +66,15 @@ def preprocess(file_path):
                               ,sr=44100
                               ,offset=0.5
                              )
-
+        print('222---------------')
         sample_rate = np.array(sample_rate)
         mfccs = np.mean(librosa.feature.mfcc(y=X, sr=sample_rate, n_mfcc=13),axis=0)
+        print('333-----------')
         newdf = pd.DataFrame(data=mfccs).T
         return newdf
-
+@app.route("/", methods=["GET", "POST"])
+def home():
+    return "hello, world"
 @app.route("/predict", methods=["POST"])
 def predict():
 	
@@ -93,5 +96,6 @@ def predict():
 	return jsonify(result)
 
 
-if __name__ == "__main__":
+if __name__== "__main__":
     app.run(debug=False)
+    #app.run(debug=False)
